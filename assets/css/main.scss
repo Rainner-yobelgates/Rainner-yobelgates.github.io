@@ -1,0 +1,35 @@
+@import "components/fonts";
+@import "components/colors";
+@import "components/buttons";
+@import "components/hamburger";
+
+@import "components/home";
+
+@import "components/medium";
+@import "components/small";
+
+body {
+  background-color: $black;
+  overflow: hidden;
+  p {
+    color: $text;
+    font-family: $poppins;
+    font-weight: 300;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: $kanit;
+    color: #fff;
+  }
+  img {
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+}

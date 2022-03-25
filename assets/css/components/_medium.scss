@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    margin-top: 9%;
+    .container {
+      .left {
+        h1 {
+          font-size: 30px;
+          margin-bottom: 7px !important;
+        }
+        h2 {
+          font-size: 25px;
+        }
+        h3 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px){
+  .project{
+      .project-items::before{
+          left: 7px;
+      }
+      .project-item:nth-child(odd){
+          padding-right: 0;
+          text-align: left;
+      }
+      .project-item:nth-child(odd),
+      .project-item:nth-child(even){
+          padding-left: 37px;
+      }
+      .project-dot{
+          left: 0;
+      }
+  }
+}
