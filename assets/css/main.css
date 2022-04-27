@@ -158,6 +158,10 @@
   height: 100%;
 }
 
+.header .container {
+  z-index: 2;
+}
+
 .header .container .left h3 span {
   color: #431eff;
 }
